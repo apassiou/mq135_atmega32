@@ -20,16 +20,17 @@ LCD will show various mesurements as well as R0. Take a note of R0 value and set
 Set _DEBUG = 0
 Unit is ready to use. Test by putting outside, when air is clean PPM should be between 350 and 420.
 
-NOTE: MQ135 does not detect AQI, it detects PPM in the air, it does not differentiate between gases, it will show the highest value one. Most of the time this would be CO2.
+NOTE: MQ135 does not detect AQI, it detects PPM in the air, it does not differentiate between gases, it will show the highest value one. Most of the time this would be CO2. This is a cheap sensor. But useful for air quality measurements in terms of PPM.
 When indoors with closed doors/windows PPM should not exceed 1000. When air outside is clean the value should be between 300 and 450.
 
 PPM REFERENCE:
 
-250 - 400 ppm: background (normal) outdoor air level.
-400 - 1,000 ppm: typical level found in occupied spaces with good air exchange.
-1,000 - 2,000 ppm: level associated with complaints of drowsiness and poor air.
-2,000 - 5,000 ppm: level associated with headaches, sleepiness, and stagnant, stale, stuffy air. Poor concentration, loss of attention, increased heart rate and slight nausea may also be present.
-5,000 ppm: this indicates unusual air conditions where high levels of other gases could also be present. Toxicity or oxygen deprivation could occur. This is the permissible exposure limit for daily workplace exposures.
-40,000 ppm: this level is immediately harmful due to oxygen deprivation.
+ - 250 - 400 ppm: background (normal) outdoor air level.
+ - 400 - 1,000 ppm: typical level found in occupied spaces with good air exchange.
+ - 1,000 - 2,000 ppm: level associated with complaints of drowsiness and poor air.
+ - 2,000 - 5,000 ppm: level associated with headaches, sleepiness, and stagnant, stale, stuffy air. Poor concentration, loss of attention, increased heart rate and slight nausea may also be present.
+ - 5,000 ppm: this indicates unusual air conditions where high levels of other gases could also be present. Toxicity or oxygen deprivation could occur. This is the permissible exposure limit for daily workplace exposures.
+ - 40,000 ppm: this level is immediately harmful due to oxygen deprivation.
 
-LICENSE: You are free to use this code as you wish. All I ask is a comment/note with link to this repo.
+
+**LICENSE**: You are free to use this code as you wish. All I ask is a comment/note with link to this repo.

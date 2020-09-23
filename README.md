@@ -13,7 +13,7 @@ Will show:
 
 To calibrate:
 
- - First make sure the sensor is run for 24 to 48 hours of being on. This is initial burn-in that is required, otherwise readings are unreliable.
+ - First make sure the sensor is run for 24 to 48 hours of being on. This is initial burn-in that is required, otherwise readings are unreliable. After doing this once you will only need a 2 minute warm up after powering on.
  - Run in _DEBUG = 1 and put the unit outdoors when air is clean. Leave outside for 15 minutes.
 
 LCD will show various mesurements as well as R0. Take a note of R0 value and set Line 17 RZERO value in main.c to this value (mine is 60.52). Unit should now be calibrated.

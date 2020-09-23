@@ -8,8 +8,8 @@ Will show:
  * Lowest and Highest PPM since powered on
  * Utilizes two LEDs (yellow and red) to signal high PPM
 
-IMPORTANT: Calibration is required for each sensor, all are different just enough to where calibration cant be used from one to another.
-IMPORTANT2: MQ135 1K ohm resistor needs to be replaced with a 22K ohm resistor, this makes the sensor much more sensitive. 22K resistor is RED|RED|ORANGE. (See included image for location of resistor to replace). You can attempt to run with the stock 1K ohm resistor, it will be not very sensitive and you need to change #define RLOAD 22.0 to RLOAD 1.0
+**IMPORTANT**: Calibration is required for each sensor, all are different just enough to where calibration cant be used from one to another.
+**IMPORTANT2**: MQ135 1K ohm resistor needs to be replaced with a 22K ohm resistor, this makes the sensor much more sensitive. 22K resistor is RED|RED|ORANGE. (See included image for location of resistor to replace). You can attempt to run with the stock 1K ohm resistor, it will be not very sensitive and you need to change #define RLOAD 22.0 to RLOAD 1.0
 
 To calibrate:
 
